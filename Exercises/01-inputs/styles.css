@@ -8,11 +8,13 @@
   while the default font size for the body is 20px. 
   To make the font size of the inputs match the font size of the body,
    we can set the font size of the inputs to inherit. */
-   
+
   .input {
     border: 1px solid #aaa;
     outline: none;
     font-size: inherit;
+    /* Using em larger input have more padding
+        and smaller input have less padding */
     padding: 0.5em;
     border-radius: 0.2em;
   }
