@@ -13,3 +13,8 @@
   background-color: salmon;
   width: 50%;
 }
+
+.item-view-width {
+  width: 50vw;
+  height: 5vh;
+}

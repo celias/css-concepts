@@ -2,17 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pixels vs Percent</title>
+    <title>Units</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="item item-percent">50 Percent</div>
+    <div class="item item-view-width">Item VW and VH</div>
     <div class="parent">
         <div class="item"></div>
         <div class="item"></div>
         <div class="item item-percent">50 Percent</div>
+        <div class="item item-view-width">Item VW and VH</div>
     </div>
 <!-- Percent takes up the full width of the parent element, 
  while pixels are fixed width and NOT contained by the parent. -->
+
+ <!-- 
+ VW is based on the width of the viewport.
+  VH is based on the height of the viewport.
+  -->
 </body>
 </html>
