@@ -1,20 +1,33 @@
 .parent {
-  width: 200px;
+  /* width: 200px; */
   border: 1px solid black;
+  font-size: 30px;
 }
 
 .item {
   background-color: peru;
-  height: 20px;
+  /* height: 20px; */
   margin: 5px 0;
 }
 
-.item-percent {
+/* .item-percent {
   background-color: salmon;
   width: 50%;
-}
+} */
 
-.item-view-width {
+/* .item-view-width {
   width: 50vw;
   height: 5vh;
+} */
+
+.rem {
+    font-size: 1rem;
+}
+.em {
+    font-size: 1.5em;
+}
+
+.nested {
+    background: blue;
+    font-size: 1rem
 }

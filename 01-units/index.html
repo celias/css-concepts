@@ -6,13 +6,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="item item-percent">50 Percent</div>
-    <div class="item item-view-width">Item VW and VH</div>
+    <!-- <div class="item item-percent">50 Percent</div>
+    <div class="item item-view-width">Item VW and VH</div> -->
+    <div class="item rem">1 REM</div>
+    <div class="item em">1 EM</div>
     <div class="parent">
-        <div class="item"></div>
+        <!-- <div class="item"></div>
         <div class="item"></div>
         <div class="item item-percent">50 Percent</div>
-        <div class="item item-view-width">Item VW and VH</div>
+        <div class="item item-view-width">Item VW and VH</div> -->
+        <div class="item rem">1 REM</div>
+        <!-- <div class="item em">1 EM</div> -->
+
+        <!-- The nested EM multiplies the parent EM by 2. 
+            EM should be used typically when we need to scale the font size based on the parent element.
+            
+        -->
+        <div class="item em">Normal EM<div class="item nested">Nested EM</div></div>
     </div>
 <!-- Percent takes up the full width of the parent element, 
  while pixels are fixed width and NOT contained by the parent. -->
@@ -21,5 +31,17 @@
  VW is based on the width of the viewport.
   VH is based on the height of the viewport.
   -->
+
+<!-- 
+  FONT SIZE: REM VS EM
+    REM (Root EM) is a relative unit of measurement in CSS. 
+    It is based on the font-size of the root element (typically the <html> element). 
+    For example, if the root element's font-size is 16px, then 1rem equals 16px. 
+    Using REM units allows for scalable and more accessible designs, as changing the 
+    root font-size will proportionally adjust the sizes of all elements using REM units.
+    This is also important for accessibility, as users can adjust the font-size in their browser settings.
+-->
+
+<!-- EM is based on the font size of the parent element. -->
 </body>
 </html>
