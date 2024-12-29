@@ -1,0 +1,15 @@
+.parent {
+  width: 200px;
+  border: 1px solid black;
+}
+
+.item {
+  background-color: peru;
+  height: 20px;
+  margin: 5px 0;
+}
+
+.item-percent {
+  background-color: salmon;
+  width: 50%;
+}
