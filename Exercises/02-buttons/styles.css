@@ -18,7 +18,8 @@
     border-color:hsl(265, 91%, 30%);
 }
 
-.button.button-primary:hover {
+.button.button-primary:hover,
+.button.button-primary:focus-visible {
     box-shadow: 0 0 5px hsl(265, 78%, 53%);
 }
 
@@ -28,7 +29,8 @@
     color: white;
 }
 
-.button.button-accent:hover {
+.button.button-accent:hover,
+.button.button-accent:focus-visible {
     box-shadow: 0 0 5px hsl(205, 78%, 53%);;
 }
 
@@ -38,7 +40,8 @@
     color: white;
 }
 
-.button.button-danger:hover {
+.button.button-danger:hover,
+.button.button-danger:focus-visible {
     box-shadow: 0 0 5px hsl(0, 78%, 53%);
 }
 
